@@ -1,6 +1,5 @@
 import Kotlin.Function.*
 
-
 fun main(args:Array<String>){
     println("hello World")
     var_decl()
@@ -8,6 +7,8 @@ fun main(args:Array<String>){
     say()
     println("4*3 is ${triple(55)}")
     println(args)
+    val (x1,x2)=solve(1.0,10.0,16.0)
+    println("x1: $x1 and x2: $x2")
 }
 
 fun if_s() {
