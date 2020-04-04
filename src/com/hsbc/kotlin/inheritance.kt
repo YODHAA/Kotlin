@@ -8,19 +8,25 @@ fun main(args:Array<String>){
 
   }
 
-open class Animal constructor(color: String) {
+open class Animal {
     // super
-    init {
-        println(" From Animal init: $color")
+    var color:String=" "
+
+    constructor(color: String){
+        this.color=color
+        println(" From Animal : $color")
     }
 }
 
-class Dog(var color:String , var breed:String) :Animal(color){
+class Dog:Animal{
 
+      var breed:String="Red"
     // derived
-     init {
-         println(" From dog init: $color and $breed")
-     }
+
+    constructor(color: String , breed:String): super(color){
+        this.breed=breed
+        println(" From Dog :  $color and $breed")
+    }
 }
 
 
