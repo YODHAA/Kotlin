@@ -21,6 +21,6 @@ fun main(args:Array<String>){
 
 data class User(var name:String , var id:Int){
 
-    var x:Int =10   // properties must be initialised or be abstract 
+    var x:Int =10   // properties must be initialised or be abstract
 
 }
