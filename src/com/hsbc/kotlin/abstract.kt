@@ -15,3 +15,8 @@ class Indian1 :Person1(){
 
     }
 }
+
+interface X {
+    var name:String
+
+}
