@@ -1,7 +1,7 @@
 // make a common class file for Kotlin methods
 @file:JvmName("MyCustomKotlinFileName")
 
-package com.hsbc.kotlin
+package com.hsbc.mediumKotlin
 
 import com.hsbc.java.first
 
@@ -10,7 +10,7 @@ fun main(args:Array<String>){
     var area= first.getArea(3,5)
     System.out.println("Area: "+area)
 
-    // named parameters in kotlin
+    // named parameters in mediumKotlin
     var vol= volume(b=4,l=5)
     System.out.println("Voume: "+vol)
 }

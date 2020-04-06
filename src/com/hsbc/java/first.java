@@ -1,6 +1,6 @@
 package com.hsbc.java;
 
-import com.hsbc.kotlin.MyCustomKotlinFileName;
+import com.hsbc.mediumKotlin.MyCustomKotlinFileName;
 
 public class first {
 

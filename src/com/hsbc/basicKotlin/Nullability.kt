@@ -1,11 +1,11 @@
-package Kotlin.Nullability
+package Kotlin.Nullability.com.hsbc.basicKotlin
 
 import java.util.*
 
 
 fun main(args:Array<String>){
 
-     nullability()
+    nullability()
     bitrthday()
 }
 

@@ -1,4 +1,4 @@
-package com.hsbc.kotlin
+package com.hsbc.mediumKotlin
 
 abstract class Person1{     // you cannot create instance of abstract class
       abstract var name:String

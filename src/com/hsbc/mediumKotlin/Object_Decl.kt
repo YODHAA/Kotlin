@@ -1,4 +1,4 @@
-package com.hsbc.kotlin
+package com.hsbc.mediumKotlin
 
 fun main(args:Array<String>){
 
@@ -28,7 +28,5 @@ object Data:MySuperClass(){
         println("Inside Data class myMethod call: $str")
     }
 
-    init {
-        // initilaise your values 
-    }
+
 }

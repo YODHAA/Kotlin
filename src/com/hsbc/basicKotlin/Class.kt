@@ -1,5 +1,5 @@
 
-package Kotlin.Class
+package com.hsbc.basicKotlin
 
 data class Person(var name:String, var age:Int){
     init{
@@ -9,12 +9,12 @@ data class Person(var name:String, var age:Int){
 
 fun main (args:Array<String>){
 
-    var h=Person("saurabh",25)
+    var h= Person("saurabh", 25)
     h.name="sahil"
     h.age=35
     println("my name is ${h.name} ad age is : ${h.age}")
 
-    var h1=Person("saurabh",25)
+    var h1= Person("saurabh", 25)
     println(h==h1)
 
     var h2=h.copy()

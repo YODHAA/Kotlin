@@ -1,4 +1,4 @@
-package Kotlin.Lambdas
+package com.hsbc.basicKotlin
 
 fun main(args:Array<String>){
 

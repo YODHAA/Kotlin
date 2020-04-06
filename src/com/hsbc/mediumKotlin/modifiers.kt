@@ -1,4 +1,4 @@
-package com.hsbc.kotlin
+package com.hsbc.mediumKotlin
 
 class TestClass{
 
