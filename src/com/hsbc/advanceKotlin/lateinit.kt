@@ -21,4 +21,4 @@ class Country {
 
 // lateinit used with var mutable data type
 // used with non-nullable data type
-// initialise before use 
+// initialise before use
