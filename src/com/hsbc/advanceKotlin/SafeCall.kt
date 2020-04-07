@@ -10,6 +10,6 @@ fun main(args:Array<String>){
 
     println(name?.length ?: -1 )
 
-    println(name!!.length)       // throws the NullPointerException if not Found any value 
+    println(name!!.length)       // throws the NullPointerException if not Found any value
 
 }
