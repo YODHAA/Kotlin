@@ -7,7 +7,7 @@ fun main(args:Array<String>){
     var mymap = HashMap<Int,String>()
 
       // HashMap<Int,String>() or  mutableMapOf<Int,String>() or hashMapOf<Int,String>  all are same
-     // mutableMapOf() : - >   returns LinkedHashMap 
+     // mutableMapOf() : - >   returns LinkedHashMap
 
     mymap.put(1,"A")
     mymap.put(23,"B")
